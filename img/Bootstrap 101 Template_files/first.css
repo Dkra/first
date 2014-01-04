@@ -1,0 +1,12 @@
+@import url(../stylesheets/normalize.css);
+body {
+  background: white;
+}
+
+#Mycarousel {
+  width: 50%;
+  margin: 0 auto;
+}
+#Mycarousel img {
+  width: 100%;
+}

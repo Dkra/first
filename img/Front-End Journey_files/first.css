@@ -1,0 +1,33 @@
+@import url(../stylesheets/normalize.css);
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  }
+}
+
+body {
+  background: white;
+}
+body #animate-area {
+  width: 560px;
+  height: 400px;
+  background-image: url(../img/bg-clouds.png);
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  -webkit-animation: animatedBackground 40s linear infinite;
+}
+
+#content {
+  margin: 50px auto;
+}
+#content img {
+  margin: 0 auto;
+}
+
+.row {
+  text-align: center;
+}

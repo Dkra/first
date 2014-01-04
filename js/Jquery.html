@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)file:///Users/Gtjiang/Desktop/Practice/First/index.html -->
+<html lang="zh-TW"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Jquery</title>
+	<link rel="stylesheet" type="text/css" href="./Jquery_files/first.css">
+	<script src="./Jquery_files/jquery-1.9.1.min.js">
+</head>
+<body>
+<div class="foo">foo</div>
+<script>
+	var a = [1,2,3];
+	var b = a;
+	a.push(5);
+	console.log(b)
+
+	$('.foo').click(function(){
+		console.log($(this));
+	});
+</script>
+</head><body>
+<script src="./Jquery_files/livereload.js"></script></body></html>
